@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/unnamed.jpg" type = "image/x-icon">
+    <script src="https://kit.fontawesome.com/09bad0d065.js" crossorigin="anonymous"></script>
+    <title>newjeans.com</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <%- include('navbar') %>
+            <div class="headertext">
+                <h1>
+                    <hr>
+                    Profile
+                    <hr>
+                </h1>
+            </div>
+            <div class="images-container">
+                <img class = "ppic" src="../images/profilepic.jpg">
+            </div>
+            <div class="paragraph">
+                <p>NewJeans (Korean: 뉴진스; RR: Nyujinseu) is a South Korean girl group formed by ADOR, a subsidiary of Hybe Corporation. The group is composed of five members: Minji, Hanni, Danielle, Haerin and Hyein.The group pre-released their debut single "Attention" on July 22, 2022, preceding their debut eponymous extended play, which was released on August 1, 2022.</p>
+            </div>
+            <div class="paragraph">
+                <h3>Name</h3>
+                <p>The group's name, NewJeans, has two meanings. It alludes to the idea that jeans are a timeless fashion item and the group's intention to carve a timeless image for themselves.The name is also a word play on the phrase "new genes", referring to the group ushering a new generation of pop music.</p>    
+            </div>
+            <div class="headertext">
+                <h1>
+                    <hr>
+                    Members
+                    <hr>
+                </h1>
+            </div>
+            <%- include('card') %>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; 2023. All rights reserved.</p>
+    </div>
+</body>
+</html>
