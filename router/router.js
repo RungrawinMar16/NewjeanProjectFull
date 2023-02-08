@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-router.get("/index",(req,res)=>{
+router.get("/",(req,res)=>{
    res.render('index.ejs')
 })
 
@@ -12,6 +12,11 @@ router.get("/profile",(req,res)=>{
 
 router.get("/album",(req,res)=>{
     res.render('album.ejs')
+})
+
+router.get("/video",(req,res)=>{
+  
+    res.render('videos.ejs')
 })
 
 
